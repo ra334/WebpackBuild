@@ -1,0 +1,41 @@
+{
+    "name": "webpackbuild",
+    "version": "1.0.0",
+    "description": "",
+    "private": true,
+    "scripts": {
+        "dev": "webpack --mode development",
+        "build": "webpack --mode production",
+        "watch": "webpack-dev-server --mode development --open"
+    },
+    "keywords": [
+        "js",
+        "webpack"
+    ],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.17.0",
+        "@babel/plugin-proposal-class-properties": "^7.16.7",
+        "@babel/preset-env": "^7.16.11",
+        "babel-loader": "^8.2.3",
+        "clean-webpack-plugin": "^4.0.0",
+        "copy-webpack-plugin": "^10.2.4",
+        "css-loader": "^6.6.0",
+        "csv-loader": "^3.0.3",
+        "file-loader": "^6.2.0",
+        "html-webpack-plugin": "^5.5.0",
+        "postcss": "^8.4.6",
+        "postcss-loader": "^6.2.1",
+        "sass": "^1.49.7",
+        "sass-loader": "^12.4.0",
+        "style-loader": "^3.3.1",
+        "webpack": "^5.68.0",
+        "webpack-cli": "^4.9.2",
+        "webpack-dev-server": "^4.7.4",
+        "xml-loader": "^1.2.1"
+    },
+    "dependencies": {
+        "normalize.css": "^8.0.1"
+    }
+}
